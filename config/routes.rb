@@ -1,5 +1,7 @@
 EmptyApp400::Application.routes.draw do
 
+  resources :posts
+
 	root 'application#test_page'
 
   # The priority is based upon order of creation: first created -> highest priority.
