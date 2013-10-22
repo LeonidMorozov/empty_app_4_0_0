@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
+#ruby '2.0.0'
 #ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -23,6 +24,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+gem 'newrelic_rpm'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
